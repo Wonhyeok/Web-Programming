@@ -1,0 +1,161 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<meta author="최원혁"/>
+<meta charset="utf-8" />
+<title>Animo Spanish! 웹사이트에 오신것을 환영합니다.</title>
+<style type="text/css">
+	html,body{width:100%;height:100%}
+	html{overflow-y:scroll}
+	body,h2,h3,h4{font-family:"Trebuchet MS",sans-serif;font-size:13px;color:#383d41}
+	.whole{}
+	#SNS {float:right; }
+	#copyright {text-align:left; font-family:"Times New Roman" sans-serif; font-size:7pt; }
+	#center1 {float:center;}
+	
+	#topMenu { height: 30px; width: 1250px; float:center; } 
+	#topMenu ul li { list-style: none; color: black; background-color: yellow; float: left; line-height: 30px; vertical-align: middle;  text-align: center; } 
+	#topMenu .menuLink { text-decoration:none; color: black; display: block; width: 242px;  font-size: 12px; font-weight: bold;font-family: "Trebuchet MS", sans-serif; } 
+	#topMenu .menuLink:hover { color: white; background-color:#4b4b4b ; }
+	
+	/*#2c2c2c*/
+
+	.wrap{width:1450px;margin:0 auto}
+	header{margin-top:20px;padding:20px;border:1px solid #000;background:#d00000}
+	hgroup{overflow:hidden;padding-bottom:20px}
+	hgroup h1{float:right;font-size:22px;color:#fff}
+	.f {float:right; font-weight:normal;opacity:0.8;font-size:14px;}
+	
+	
+	
+	section{float:left; width:662px;margin-top:15px;margin-bottom:20px;padding:20px;border:1px solid #ccc;line-height:20px}
+	.s1{margin-right:20px;}
+	.s2{margin-left:20px;}
+	.s3{margin-left:20px; height: 257px}
+	.s4{margin-right:20px; height: 257px}
+	.s5{margin-left:20px; height: 257px}
+	.s6{float:center; width:1408px;overflow:auto;}
+	article{margin-bottom:20px}
+	article h3{font-size:16px}
+	aside{float:right;width:190px;height:580px; padding:10px;margin-top:15px;border:1px solid #ccc;line-height:20px}
+	aside .ad{height:100px;margin-bottom:20px;background-color:#ebebeb; }
+	.flag{float:right; x}
+	.flag2{float:left; margin-left: 10px;margin-right: 10px}
+	
+	.out{list-style-position: outside}
+	
+	footer{clear:both;border:1px solid #ccc}
+	
+</style>
+
+</head>
+
+
+
+<body>
+
+	
+<div class="wrap">	
+	
+  <header>
+	    <hgroup>
+	    <h1>믿고 배우는 스페인어 Animo Spanish!<br><br>  
+				<a class="f" href="signup.html" >회원가입&nbsp;</a>
+				<a class="f" href="login.html" >로그인&nbsp;</a>
+       
+      </h1>
+        <a href="main.html"><img  src ="logo.jpg" width="256" height="128" margin= "20"></a>
+		  </hgroup>  
+		    
+		 
+		
+		<nav id="topMenu" > 
+		<ul> 
+		<li><a class="menuLink" href="intro.html">강사 소개</a></li>
+		<li><a class="menuLink" href="introsp.html">오늘의 스페인</a></li>
+		<li><a class="menuLink" href="course.html">강의 수강</a></li>
+		<li><a class="menuLink" href="level.html">레벨테스트</a></li> </ul> 
+		</nav>
+
+	</header>
+
+
+
+
+
+<hr/>
+<section class="s6">
+		 
+			<form method="get" action="manage.php">
+			<h1>레벨 테스트</h1> <br>
+			<h2>객관식은 총 5문항 4지 선다형입니다.</h2> <br>
+			1. Qué expresión no es correcta para despedirse? <br><input type="radio" name="q1" value="a1" checked/>① Hasta luego  <br>
+								<input type="radio" name="q1" value="a2"/>② Adiós <br>
+								<input type="radio" name="q1" value="a3"/>③ Nos vemos más tarde <br>
+								<input type="radio" name="q1" value="a4"/>④ Hace mucho tiempo que no vernos<br><br>
+								
+			2. Qué forma de verbo es apta para esta expresión: Que ______ un buen día.<br><input type="radio" name="q2" value="a1" checked/>① tengas  <br>
+								<input type="radio" name="q2" value="a2"/>② tienes <br>
+								<input type="radio" name="q2" value="a3"/>③ tiene <br>
+								<input type="radio" name="q2" value="a4"/>④ tener <br><br>
+								
+			3. Busca la expresión errada.<br><input type="radio" name="q3" value="a1" checked/>① Yo estoy en la playa.  <br>
+								<input type="radio" name="q3" value="a2"/>② ¿Dónde esta una farmacia por aquí cerca?  <br>
+								<input type="radio" name="q3" value="a3"/>③ Juan y Marta son cansados <br>
+								<input type="radio" name="q3" value="a4"/>④ Nosotros comemos comida italiana en un restaurante. <br><br>
+								
+			4. Busca la expresión correcta.<br><input type="radio" name="q4" value="a1" checked/>① Ellos trabajan en una academia.  <br>
+								<input type="radio" name="q4" value="a2"/>② Tiene buen tiempo pero yo tengo frío.   <br>
+								<input type="radio" name="q4" value="a3"/>③ Elisa querias hacer una fiesta por su cumpleaños.  <br>
+								<input type="radio" name="q4" value="a4"/>④ Vaya a volver a las 7.  <br><br>
+			
+			5. Qué verbo no es adecuada en la forma del pretérito perfecto? <br><input type="radio" name="q5" value="a1" checked/>① Esta mañana Jimena ha cocinado para ti.   <br>
+								<input type="radio" name="q5" value="a2"/>② Yo nunca le he escribido a ella.    <br>
+								<input type="radio" name="q5" value="a3"/>③ Nosotros hemos comido pizza. <br>
+								<input type="radio" name="q5" value="a4"/>④ Ellas nunca ha dijedo la verdad.   <br><br>
+			<h2>주관식은 총 3문항입니다.</h2>		<br>			
+			6. Completa el espacio en blanco. <br><br>Voy al cine <input type="text" name="q6" value=""/>. (난 가끔씩 영화관에 가.)  (I sometimes go to theater.)<br> <br>  
+			7. Completa los espacios utilizando los pronombres. <br><br>A: Yo quiero unas camisas.<br>B: ¿Cómo <input type="text" name="q7" value=""/> quieres? <br>A : 나는 셔츠를 원해요. A: I want some shirts. <br>B : 어떤 것들을 원하니? B: What kind of shirts do you want?<br><br>
+			8. Completa con el verbo en la forma adecuada del futuro. <br><br>El año que viene yo <input type="text" name="q8" value=""/> en Seúl. <br> ( 내년에 나는 서울에 살 것이다. ) ( I will live in Seoul next year.)<br><br>
+			<input type="button" value="풀이 완료" /><br><br>
+			<h2>Result:</h2> <input type="text" name="res" value=""/> &nbsp;&nbsp;&nbsp;&nbsp; <h2>Grade:</h2> <input type="text" name="grade" value=""/> 
+			</form>
+			
+			
+
+</section>	
+
+			
+
+
+
+<footer>  
+	
+	 <div id="SNS">
+       <a href="http://facebook.com" target="_blank">
+           <img src="facebook.png" height="32" alt="Facebook">
+       </a>
+       <a href="http://twitter.com" target="_blank">
+           <img src="twitter.png" height="32" alt="Twitter">
+       </a>
+       
+   </div>
+   
+   <div id="copyright">
+       Copyright (c) 2017 Animo Spanish! All rights reserved <br>
+       Contact: 010-8577-0671 <br>
+    	 Email: won9306@naver.com
+   </div>
+   
+  
+   
+</footer>
+
+
+</div>
+	
+
+</body>
+
+</html>
